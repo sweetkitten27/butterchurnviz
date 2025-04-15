@@ -10,9 +10,9 @@
     "dist/isSupported.min.js"
   ],
   "scripts": {
-    "build": "webpack --config config/webpack.config.js --env prod",
-    "dev": "webpack --config config/webpack.config.js --progress --colors --watch --env dev",
-    "dev-build": "webpack --config config/webpack.config.js --progress --colors --env dev"
+    "build": "webpack --config config/webpack.config.js --env prod --openssl-legacy-provider",
+    "dev": "webpack --config config/webpack.config.js --progress --colors --watch --env dev --openssl-legacy-provider",
+    "dev-build": "webpack --config config/webpack.config.js --progress --colors --env dev --openssl-legacy-provider"
   },
   "repository": {
     "type": "git",
