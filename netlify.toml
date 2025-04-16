@@ -4,7 +4,7 @@
   publish = "./"
 
   # Default build command.
-  command = "npm audit && yarn run dev-build"
+  command = "npm update webpack webpack-cli --latest && yarn run dev-build"
 
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
